@@ -7,7 +7,9 @@ import android.os.Bundle;
 import android.view.View;
 import android.widget.Button;
 
-import java.util.jar.Manifest;
+import com.example.lifepharmacy.Activity.CreatePrescription;
+import com.example.lifepharmacy.Activity.MyOrder;
+import com.example.lifepharmacy.Activity.SearchProduct;
 
 public class MainActivity extends AppCompatActivity {
     Button searchProduct,myOrder,createPrescription;
@@ -40,15 +42,15 @@ public class MainActivity extends AppCompatActivity {
         });
     }
     private void searchProduct() {
-        Intent intent = new Intent(this,SearchProduct.class);
+        Intent intent = new Intent(this, SearchProduct.class);
         startActivity(intent);
     }
     private void myOrder() {
-        Intent intent = new Intent(this,MyOrder.class);
+        Intent intent = new Intent(this, MyOrder.class);
         startActivity(intent);
     }
     private void createPrescription() {
-        Intent intent = new Intent(this,CreatePrescription.class);
+        Intent intent = new Intent(this, CreatePrescription.class);
         startActivity(intent);
     }
 }

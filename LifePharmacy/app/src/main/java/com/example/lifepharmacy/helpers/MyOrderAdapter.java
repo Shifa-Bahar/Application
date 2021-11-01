@@ -8,7 +8,7 @@ import android.widget.TextView;
 
 import androidx.recyclerview.widget.RecyclerView;
 
-import com.example.lifepharmacy.ModelResponse.DatumOrder;
+import com.example.lifepharmacy.ModelResponse.MyOrder.DatumOrder;
 import com.example.lifepharmacy.R;
 
 import java.util.List;

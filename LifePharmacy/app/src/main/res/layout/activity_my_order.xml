@@ -4,13 +4,13 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".MyOrder">
+    tools:context=".Activity.MyOrder">
 
     <TextView
         android:id="@+id/textView"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:background="@color/Grey"
+        android:background="@color/purple_400"
         android:padding="10dp"
         android:text="My Orders"
         android:textColor="@color/black"

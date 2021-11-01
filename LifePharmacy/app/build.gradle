@@ -15,10 +15,16 @@ android {
 
         testInstrumentationRunner "androidx.test.runner.AndroidJUnitRunner"
     }
-
+    buildTypes {
+        debug {
+            minifyEnabled false
+            debuggable true
+            testCoverageEnabled = false
+        }
+    }
     buildTypes {
         release {
-            minifyEnabled false
+             false
             proguardFiles getDefaultProguardFile('proguard-android-optimize.txt'), 'proguard-rules.pro'
         }
     }
@@ -49,5 +55,6 @@ dependencies {
     implementation 'jp.wasabeef:recyclerview-animators:4.0.2'
     implementation 'com.github.bumptech.glide:glide:4.12.0'
     annotationProcessor 'com.github.bumptech.glide:compiler:4.12.0'
+    implementation 'com.github.dhaval2404:imagepicker:2.1'
 
 }

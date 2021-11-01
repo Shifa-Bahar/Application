@@ -10,7 +10,7 @@ import android.widget.TextView;
 import androidx.recyclerview.widget.RecyclerView;
 
 import com.bumptech.glide.Glide;
-import com.example.lifepharmacy.ModelResponse.Datum;
+import com.example.lifepharmacy.ModelResponse.SearchProduct.Datum;
 import com.example.lifepharmacy.R;
 
 import java.util.List;

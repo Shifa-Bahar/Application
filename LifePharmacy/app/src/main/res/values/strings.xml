@@ -1,6 +1,11 @@
 <resources>
-    <string name="app_name">LifePharmacy</string>
+    <string name="app_name">LIFE</string>
     <string name="search_product">Search Product</string>
     <string name="my_order">My Order</string>
     <string name="create_prescription">Create A Prescription Request</string>
+    <style name="AppTheme.BackgroundImageStyle">
+        <item name="android:windowBackground">@drawable/lifepharma</item>
+    </style>
+
+    <style name="AppTheme">life</style>
 </resources>
